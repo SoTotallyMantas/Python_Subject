@@ -1,6 +1,6 @@
-class year():
+class Year:
     def __init__(self, year):
         self.year = year
 
-    def getYear(self):
+    def get_year(self):
         return self.year

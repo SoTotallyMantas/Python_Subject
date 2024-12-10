@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Math",
+        "grace_threshold": 4.0,
+        "students": [
+            {
+                "firstname": "John",
+                "lastname": "Doe",
+                "average_grade": 4.333333333333334
+            },
+            {
+                "firstname": "Jane",
+                "lastname": "Doe",
+                "average_grade": 4.166666666666667
+            }
+        ]
+    },
+    {
+        "name": "Programming",
+        "grace_threshold": 4.5,
+        "students": []
+    }
+]

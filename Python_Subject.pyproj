@@ -21,22 +21,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Classes\base_person.py" />
+    <Compile Include="Classes\basePerson.py" />
     <Compile Include="Classes\grades.py" />
     <Compile Include="Classes\group.py" />
     <Compile Include="Classes\program.py" />
+    <Compile Include="Classes\specialization.py" />
     <Compile Include="Classes\student.py" />
-    <Compile Include="Classes\student_subject_grades.py" />
+    <Compile Include="Classes\studentSubjectGrades.py" />
     <Compile Include="Classes\subject.py" />
     <Compile Include="Classes\teacher.py" />
     <Compile Include="Classes\year.py" />
     <Compile Include="Python_Subject.py" />
-    <Compile Include="Utilities\FileOperations.py" />
-    <Compile Include="Utilities\formatToJSON.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
-    <Folder Include="Utilities\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="students.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

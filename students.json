@@ -1,0 +1,38 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "age": 20,
+    "financingstatus": "self-financed",
+    "subjects": [
+      {
+        "name": "Math",
+        "credits": 5,
+        "grades": [ 4, 5, 3 ]
+      },
+      {
+        "name": "Programming",
+        "credits": 5,
+        "grades": [ 5, 4, 5 ]
+      }
+    ]
+  },
+  {
+    "firstname": "Jane",
+    "lastname": "Doe",
+    "age": 22,
+    "financingstatus": "financed",
+    "subjects": [
+      {
+        "name": "Math",
+        "credits": 5,
+        "grades": [ 3, 4, 4 ]
+      },
+      {
+        "name": "English",
+        "credits": 3,
+        "grades": [ 5, 5, 4 ]
+      }
+    ]
+  }
+]
